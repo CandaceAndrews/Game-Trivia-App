@@ -1,5 +1,7 @@
 # game-trivia-app
 
+## https://candaceandrews.github.io/Game-Trivia-App/
+
 ## Project setup
 ```
 npm install
