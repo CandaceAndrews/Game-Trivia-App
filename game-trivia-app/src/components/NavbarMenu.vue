@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Navbar',
+    name: 'NavbarMenu',
 }
 </script>
 
@@ -22,5 +22,22 @@ body, html {
     display: flex;
     justify-content: space-around;
     position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover,
+.router-link-exact-active {
+    background-color: rgb(97, 126, 113);
+    color: #fff;
 }
 </style>

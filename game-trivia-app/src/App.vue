@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar />
+    <NavbarMenu />
     <router-view />
   </div>
   <footer>
@@ -9,22 +9,31 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import NavbarMenu from './components/NavbarMenu.vue'
+
 export default {
   name: 'App',
   components: {
-    Navbar
+    NavbarMenu,
   }
 }
 </script>
 
 <style>
-#app {
+body {
+  margin: 0;
+  padding: 0;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #34423a;
+  background-color: #d3e3d9;
+}
+
+footer {
+  color: #69736d;
+  margin-top: 25px;
+  font-size: small;
 }
 </style>
