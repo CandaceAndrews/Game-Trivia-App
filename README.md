@@ -1,6 +1,6 @@
 # game-trivia-app
 
-## https://candaceandrews.github.io/Game-Trivia-App/
+## [Video Game Trivia App](https://candaceandrews.github.io/Game-Trivia-App/)
 
 ## Project setup
 ```
