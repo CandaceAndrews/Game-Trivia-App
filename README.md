@@ -1,5 +1,3 @@
-# game-trivia-app
-
 ## [PlayStation Trivia App](https://candaceandrews.github.io/Game-Trivia-App/)
 
 ## Project setup
