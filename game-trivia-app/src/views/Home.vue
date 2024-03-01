@@ -1,8 +1,8 @@
 <template>
     <div class="home-page">
         <div class="greeting-section">
-            <h1>Welcome To The Video Game Trivia Quiz!</h1>
-            <p class="greeting-text">Test your knowledge of your favorite video game!</p>
+            <h1>PlayStation 1 Trivia Quiz</h1>
+            <p>Test your knowledge on classic PS1 games!</p>
         </div>
     </div>
 </template>
