@@ -1,4 +1,4 @@
-## [PlayStation Trivia App](https://candaceandrews.github.io/Game-Trivia-App/)
+## [PlayStation Trivia App](https://candaceandrews.github.io/PlayStation-Trivia-App/)
 
 ## Project setup
 ```
