@@ -5,11 +5,26 @@
             <p>Test your knowledge on classic PS1 games!</p>
         </div>
     </div>
+
+    <GameSelection @game-selected="startQuiz" />
+
 </template>
 
 <script>
+import GameSelection from '@/components/GameSelection.vue';
 export default {
     name: 'Home',
+    components: {
+        GameSelection,
+    },
+    methods: {
+        startQuiz(selectedGame) {
+        // Optionally, you can navigate to the quiz page or handle the quiz initiation here
+        this.$router.push('/quiz'); // If you're using Vue Router
+        // Or emit an event to notify the parent component to start the quiz
+        // this.$emit('start-quiz', selectedGame);
+        }
+    }
 };
 </script>
 

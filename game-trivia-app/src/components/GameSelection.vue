@@ -9,20 +9,19 @@
 </template>
 
 <script>
+import ps1Games from '@/assets/data/GameTitleData.js';
+
 export default {
     data() {
         return {
             selectedGame: null,
-            ps1Games: ['Final Fantasy VII', 'Metal Gear Solid', 'Resident Evil', 'Crash Bandicoot', 'Spyro the Dragon'],
+            ps1Games: ps1Games,
         };
     },
     methods: {
         selectGame() {
             this.$emit('game-selected', this.selectedGame);
         },
-        startQuiz() {
-            this.$router.push('/quiz');
-        }
     }
 };
 </script>
