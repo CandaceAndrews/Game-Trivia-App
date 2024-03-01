@@ -13,10 +13,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .home-page {
-    margin: 50px 0px 0px 0px;
-    position: relative; /* Make the parent container relative for absolute positioning */
-    overflow-x: hidden;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
 </style>
