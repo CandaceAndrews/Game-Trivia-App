@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ps1Games from '@/assets/data/GameTitleData.js';
+import ps1Games from '@/data/GameTitleData.js';
 
 export default {
     data() {
