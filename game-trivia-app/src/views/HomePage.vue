@@ -15,5 +15,25 @@
             :game="game"
         />
     </div>
-
 </template>
+
+<script>
+import GameThumbnail from '../components/GameThumbnail.vue';
+import ps1Games from '@/data/GameData.js';
+
+export default {
+    components: {
+        GameThumbnail,
+    },
+    data() {
+        return {
+            ps1Games,
+        };
+    },
+    methods: {
+        navigateToGameQuiz(game) {
+            this.$router.push({name: 'quizPage', params: { id: game.id }});
+        },
+    },
+};
+</script>

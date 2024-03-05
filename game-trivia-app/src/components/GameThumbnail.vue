@@ -1,5 +1,5 @@
 <template>
-    <div class="game-thumbnail" @click="handleNavigateToProject">
+    <div class="game-thumbnail" @click="handleNavigateToGameQuiz">
     <img class="thumbnail-image" :src="Gamepad.thumbnailSource" :alt="game.title">
     <h3>{{ game.title }}</h3>
     </div>
@@ -11,7 +11,7 @@ export default {
         game: Object,
     },
     methods: {
-        handleNavigateToProject() {
+        handleNavigateToGameQuiz() {
             this.$router.push(`/quiz/${this.game.id}`);
         },
     },
