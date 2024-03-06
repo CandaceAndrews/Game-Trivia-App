@@ -1,24 +1,23 @@
 <template>
-    <!-- PS1 Logo .gif -->
-    <img src="@/assets/ps1-logo.gif" alt="ps1 logo fading in">
-
     <!-- Home Page Intro -->
     <div class="home-page">
+        <!-- PS1 Logo .gif -->
+        <img class="ps1-logo-gif" src="@/assets/ps1-logo.gif" alt="ps1 logo fading in">
         <div class="greeting-section">
             <h1>PlayStation 1 Trivia Quiz</h1>
             <p>Test your knowledge on classic PS1 games!</p>
         </div>
-    </div>
 
-    <!-- Game Thumbnails -->
-    <div class="games">
-        <h1>Game Selection</h1>
-        <div class="game-grid">
-            <GameThumbnail
-                v-for="game in ps1Games"
-                :key="game.id"
-                :game="game"
-            />
+        <!-- Game Thumbnails -->
+        <div class="games">
+            <h1>Game Selection</h1>
+            <div class="game-grid">
+                <GameThumbnail
+                    v-for="game in ps1Games"
+                    :key="game.id"
+                    :game="game"
+                />
+            </div>
         </div>
     </div>
 </template>
@@ -45,15 +44,28 @@ export default {
 </script>
 
 <style scoped>
+/* @font-face {
+  font-family: 'Press Start 2P';
+  src: url('@/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+} */
+
 .home-page {
     margin-top: 75px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+}
+
+.ps1-logo-gif {
+    max-width: 65%;
+    height: auto;
 }
 
 .games {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
-    background-color: grey;
 }
 
 .game-grid {
