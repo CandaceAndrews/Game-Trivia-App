@@ -27,10 +27,10 @@ export default {
 }
 
 .thumbnail-image {
-    max-width: 85%;
+    max-width: 65%;
     height: auto;
     object-fit: cover;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 8px;
 }
 

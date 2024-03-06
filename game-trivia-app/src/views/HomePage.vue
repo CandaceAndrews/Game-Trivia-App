@@ -1,4 +1,7 @@
 <template>
+    <!-- PS1 Logo .gif -->
+    <img src="@/assets/ps1-logo.gif" alt="ps1 logo fading in">
+
     <!-- Home Page Intro -->
     <div class="home-page">
         <div class="greeting-section">
@@ -50,6 +53,7 @@ export default {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
+    background-color: grey;
 }
 
 .game-grid {
