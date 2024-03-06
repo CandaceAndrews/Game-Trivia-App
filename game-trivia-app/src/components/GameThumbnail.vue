@@ -1,7 +1,7 @@
 <template>
     <div class="game-thumbnail" @click="handleNavigateToGameQuiz">
-    <img class="thumbnail-image" :src="Gamepad.thumbnailSource" :alt="game.title">
-    <h3>{{ game.title }}</h3>
+        <img class="thumbnail-image" :src="game.thumbnailSource" :alt="game.title">
+        <h3>{{ game.title }}</h3>
     </div>
 </template>
 
@@ -17,3 +17,24 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.game-thumbnail {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail-image {
+    max-width: 85%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.game-thumbnail:hover {
+    transform: scale(1.1);
+}
+</style>
+
