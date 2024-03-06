@@ -33,7 +33,7 @@ body {
 
 footer {
   color: #69736d;
-  margin-top: 25px;
+  margin-top: 50px;
   font-size: small;
 }
 </style>

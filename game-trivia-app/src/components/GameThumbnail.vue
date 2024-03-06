@@ -1,6 +1,6 @@
 <template>
     <div class="game-thumbnail" @click="handleNavigateToGameQuiz">
-        <img class="thumbnail-image" :src="game.thumbnailSource" :alt="game.title">
+        <img class="thumbnail-image" :src="game.cover" :alt="game.title">
         <h3>{{ game.title }}</h3>
     </div>
 </template>
@@ -29,6 +29,7 @@ export default {
 .thumbnail-image {
     max-width: 85%;
     height: auto;
+    object-fit: cover;
     border: 1px solid #ddd;
     border-radius: 8px;
 }

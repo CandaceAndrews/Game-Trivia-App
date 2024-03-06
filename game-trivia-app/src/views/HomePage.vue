@@ -9,11 +9,14 @@
 
     <!-- Game Thumbnails -->
     <div class="games">
-        <GameThumbnail
-            v-for="game in ps1Games"
-            :key="game.id"
-            :game="game"
-        />
+        <h1>Game Selection</h1>
+        <div class="game-grid">
+            <GameThumbnail
+                v-for="game in ps1Games"
+                :key="game.id"
+                :game="game"
+            />
+        </div>
     </div>
 </template>
 
@@ -37,3 +40,22 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.home-page {
+    margin-top: 75px;
+}
+
+.games {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+</style>
