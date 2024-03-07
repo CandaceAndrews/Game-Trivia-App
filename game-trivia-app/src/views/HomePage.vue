@@ -4,7 +4,7 @@
         <!-- PS1 Logo .gif -->
         <img class="ps1-logo-gif" src="@/assets/ps1-logo.gif" alt="ps1 logo fading in">
         <div class="greeting-section">
-            <h1>PlayStation 1 Trivia Quiz</h1>
+            <h1>PlayStation Trivia Quiz</h1>
             <p>Test your knowledge on classic PS1 games!</p>
         </div>
 
@@ -44,11 +44,6 @@ export default {
 </script>
 
 <style scoped>
-/* @font-face {
-  font-family: 'Press Start 2P';
-  src: url('@/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
-} */
-
 .home-page {
     margin-top: 75px;
     font-family: 'Press Start 2P', sans-serif;
@@ -60,6 +55,10 @@ export default {
 .ps1-logo-gif {
     max-width: 65%;
     height: auto;
+}
+
+.greeting-section {
+    padding: 50px;
 }
 
 .games {
