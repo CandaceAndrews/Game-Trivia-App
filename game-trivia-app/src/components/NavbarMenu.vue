@@ -17,7 +17,7 @@ body, html {
 }
 
 .navbar {
-    background-color: rgb(66, 81, 74);
+    background-color: grey;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@ body, html {
 
 .nav-link:hover,
 .router-link-exact-active {
-    background-color: rgb(97, 126, 113);
+    background-color: rgb(255, 34, 86);
     color: #fff;
 }
 </style>
