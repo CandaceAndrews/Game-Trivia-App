@@ -1,6 +1,9 @@
 <template>
     <div class="navbar">
-        <router-link to="/" class="nav-link" exact>Home</router-link>
+        <div class="nav-link">
+            <img class="buttons-pic" src="@/assets/ps1-buttons.png" alt="playstation buttons">
+            <router-link to="/" class="home-link" exact>Home</router-link>
+        </div>
     </div>
 </template>
 
@@ -17,7 +20,7 @@ body, html {
 }
 
 .navbar {
-    background-color: grey;
+    background-color: rgb(165, 166, 173);
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -28,10 +31,15 @@ body, html {
     border-bottom: 2px solid white;
 }
 
+.buttons-pic {
+    max-width: 30px;
+    height: auto;
+}
+
 .navbar-link {
     color: #fff;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -40,5 +48,6 @@ body, html {
 .router-link-exact-active {
     background-color: rgb(255, 34, 86);
     color: #fff;
+    padding: 0px 5px 0px 5px;
 }
 </style>

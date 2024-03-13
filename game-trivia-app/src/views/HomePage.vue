@@ -6,6 +6,7 @@
         <div class="greeting-section">
             <h1>PlayStation Trivia Quiz</h1>
             <p>Test your knowledge on classic PS1 games!</p>
+            <img class="console-pic" src="@/assets/ps1-console.png" alt="ps1 console">
         </div>
 
         <!-- Game Thumbnails -->
@@ -58,13 +59,23 @@ export default {
 }
 
 .greeting-section {
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
+}
+
+.console-pic {
+    max-width: 30%;
+    height: auto;
+    padding: 25px 5px 10px 5px;
 }
 
 .games {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
+}
+
+.games, h1 {
+    padding-bottom: 20px;
 }
 
 .game-grid {
