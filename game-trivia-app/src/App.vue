@@ -26,12 +26,13 @@ export default {
 }
 
 body {
-  margin: 0;
+  margin-top: 75px;
   padding: 0;
   font-family: 'Press Start 2P', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: white;
   background-color: black;
   line-height: 2;
 }
