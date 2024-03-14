@@ -4,11 +4,25 @@ const ps1Games = [
     id: 1,
     title: 'Final Fantasy VII',
     cover: require('@/assets/thumbnails/final-fantasy-7/cover.jpeg'),
+    questions: [
+      {
+        question: 'What is the name of the protagonist in Final Fantasy VII?',
+        options: ['Cloud Strife', 'Squall Leonhart', 'Tidus', 'Auron'],
+        correctAnswer: 'Cloud Strife'
+      },
+    ]
   },
   {
     id: 2,
     title: 'Metal Gear Solid',
-    cover: require('@/assets/thumbnails/metal-gear-solid/cover.jpeg')
+    cover: require('@/assets/thumbnails/metal-gear-solid/cover.jpeg'),
+    questions: [
+      {
+        question: 'Who is the main character in Metal Gear Solid?',
+        options: ['Solid Snake', 'Big Boss', 'Liquid Snake', 'Raiden'],
+        correctAnswer: 'Solid Snake'
+      },
+    ]
   },
   {
     id: 3,

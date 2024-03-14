@@ -11,3 +11,13 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+.home-page {
+    margin-top: 75px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+}
+</style>

@@ -1,7 +1,6 @@
 <template>
     <div class="navbar">
         <div class="nav-link">
-            <img class="buttons-pic" src="@/assets/ps1-buttons.png" alt="playstation buttons">
             <router-link to="/" class="home-link" exact>Home</router-link>
         </div>
     </div>
@@ -31,10 +30,6 @@ body, html {
     border-bottom: 2px solid white;
 }
 
-.buttons-pic {
-    max-width: 30px;
-    height: auto;
-}
 
 .navbar-link {
     color: #fff;
