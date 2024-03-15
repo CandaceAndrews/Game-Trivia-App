@@ -31,7 +31,7 @@ export default {
     },
     computed: {
         currentQuestion() {
-            if (this.game.questions && this.game.questionslenght > this.currentQuestionIndex) {
+            if (this.game.questions && this.game.questions.length > this.currentQuestionIndex) {
                 return this.game.questions[this.currentQuestionIndex];
             }
             return null;
