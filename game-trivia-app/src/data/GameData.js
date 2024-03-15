@@ -7,9 +7,9 @@ const ps1Games = [
     questions: [
       // 1
       {
-        question: `What is the name of the flower girl who plays a significant role in Cloud's past?`,
-        options: ['Tifa Lockhart', 'Aerith Gainsborough', 'Yuffie Kisaragi', 'Jessie Raspberry'],
-        correctAnswer: 'Aerith Gainsborough'
+        question: `What is the name of the ancient city that serves as the birthplace of the Cetra and plays a significant role in Cloud's past?`,
+        options: ['Nibelheim', 'Wutai', 'Cosmo Canyon', 'Forgotten City'],
+        correctAnswer: 'Forgotten City'
       },
       // 2
       {
