@@ -27,6 +27,7 @@ export default {
     data() {
         return {
             currentQuestionIndex: 0,
+            userAnswers: [],
         };
     },
     computed: {
@@ -40,12 +41,12 @@ export default {
     methods: {
         checkAnswer(option) {
             const correctAnswer = this.currentQuestion.correctAnswer;
-            if (option === correctAnswer) {
-                alert('Correct');
-            } else {
-                alert('Incorrect!');
-            }
-            this.moveToNextQuestion();
+            const answer = {
+                question: this.currentQuestion.question,
+                selectedAnswer: option,
+                correct: option === correctAnswer,
+            };
+            this.userAnswers.push(answer);
         },
         moveToNextQuestion() {
             this.currentQuestionIndex++;
