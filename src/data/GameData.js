@@ -8,8 +8,8 @@ const ps1Games = [
       // 1
       {
         question: `What is the name of the ancient city that serves as the birthplace of the Cetra?`,
-        options: ['Nibelheim', 'Wutai', 'Cosmo Canyon', 'Forgotten City'],
-        correctAnswer: 'Forgotten City'
+        options: ['Nibelheim', 'Wutai', 'Cosmo Canyon', 'The Forgotten Capital'],
+        correctAnswer: 'The Forgotten Capital'
       },
       // 2
       {
@@ -61,8 +61,8 @@ const ps1Games = [
       },
       // 10
       {
-        question: `What is the name of the giant cannon that Shinra uses to drain Mako energy from the planet?`,
-        options: ['SOLDIER First Class', 'AVALANCHE', 'Turks', 'The Wutai Clan'],
+        question: `What is the highest rank that a member of the elite military group SOLDIER can achieve?`,
+        options: ['SOLDIER First Class', 'SOLDIER Elite', 'SOLDIER Captain', 'SOLDIER Commander'],
         correctAnswer: 'SOLDIER First Class'
       },
       // 11
