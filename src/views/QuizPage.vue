@@ -32,6 +32,7 @@ export default {
     data() {
         return {
             currentQuestionIndex: 0,
+            correctAnswers: 0, // Initialize the count of correct answers
             userAnswers: [],
         };
     },
@@ -45,13 +46,11 @@ export default {
     },
     methods: {
         checkAnswer(option) {
-            const correctAnswer = this.currentQuestion.correctAnswer;
-            const answer = {
-                question: this.currentQuestion.question,
-                selectedAnswer: option,
-                correct: option === correctAnswer,
-            };
-            this.userAnswers.push(answer);
+            const correctAnswer = this.currentQuestion.correctAnswers;
+            if (option === correctAnswer) {
+                this.correctAnswer; // Increment the count of correct answers
+            }
+            this.moveToNextQuestion();
         },
         moveToNextQuestion() {
             this.currentQuestionIndex++;
