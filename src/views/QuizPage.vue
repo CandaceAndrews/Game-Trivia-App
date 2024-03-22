@@ -10,16 +10,17 @@
             <!-- Options -->
             <div class="options">
                 <button v-for="(option, index) in currentQuestion.options" :key="index" @click="checkAnswer(option)">
-                {{ option }}
+                    {{ option }}
                 </button>
             </div>
             <!-- Next Button -->
             <button class="next-button" v-if="userAnswers.length > 0" @click="moveToNextQuestion">Next Question</button>
         </div>
-        <div v-else>
-            <p>
-                All questions answered!
-            </p>
+        <div v-else-if="showResults">
+            <!-- Results -->
+            <div class="results">
+                <p>You answered {{ correctAnswers }} out of {{ game.questions.length }} questions correctly.</p>
+            </div>
         </div>
     </div>
 </template>
@@ -32,8 +33,9 @@ export default {
     data() {
         return {
             currentQuestionIndex: 0,
-            correctAnswers: 0, // Initialize the count of correct answers
+            correctAnswers: 0,
             userAnswers: [],
+            showResults: false,
         };
     },
     computed: {
@@ -46,11 +48,17 @@ export default {
     },
     methods: {
         checkAnswer(option) {
-            const correctAnswer = this.currentQuestion.correctAnswers;
+            const correctAnswer = this.currentQuestion.correctAnswer;
             if (option === correctAnswer) {
-                this.correctAnswer; // Increment the count of correct answers
+                this.correctAnswers++; // Increment the count of correct answers
             }
-            this.moveToNextQuestion();
+            this.userAnswers.push(option);
+            if (this.currentQuestionIndex === this.game.questions.length - 1) {
+                // Last question answered, show results
+                this.showResults = true;
+            } else {
+                this.moveToNextQuestion();
+            }
         },
         moveToNextQuestion() {
             this.currentQuestionIndex++;
