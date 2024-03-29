@@ -81,6 +81,7 @@ export default {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
+    align-items: center;
 }
 
 .options-row {
@@ -92,11 +93,12 @@ export default {
 .options button {
     font-family: 'Press Start 2P', sans-serif;
     max-height: 35%;
-    width: auto;
+    width: 60%;
     margin: 10px 80px 10px 80px;
     padding: 18px;
     background-color: #397595;
     color: white;
+    line-height: 1.5;
     border: none;
     border-radius: 5px;
     cursor: pointer;
