@@ -13,8 +13,8 @@
                     {{ option }}
                 </button>
             </div>
-            <!-- Next Button -->
-            <button class="next-button" v-if="userAnswers.length > 0" @click="moveToNextQuestion">Next Question</button>
+            <!-- Results Button -->
+            <button class="results-button" v-if="userAnswers.length > 0" @click="moveToNextQuestion">Results</button>
         </div>
         <div v-else-if="showResults">
             <!-- Results -->
@@ -105,5 +105,12 @@ export default {
 
 .options button:hover {
     background-color: #64aacf;
+}
+
+.results-button {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #a51111;
+    color: white;
+    padding: 18px;
 }
 </style>
