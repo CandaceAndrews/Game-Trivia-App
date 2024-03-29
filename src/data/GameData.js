@@ -103,10 +103,95 @@ const ps1Games = [
     cover: require('@/assets/thumbnails/metal-gear-solid/cover.jpeg'),
     questions: [
       {
-        question: 'Who is the main character in Metal Gear Solid?',
-        options: ['Solid Snake', 'Big Boss', 'Liquid Snake', 'Raiden'],
-        correctAnswer: 'Solid Snake'
+        // 1
+        question: `What is the name of the island where most of Metal Gear Solid's events take place?`,
+        options: ['Shadow Moses Island', 'Outer Heaven', 'Zanzibar Land', 'Mother Base'],
+        correctAnswer: 'Shadow Moses Island',
       },
+      {
+        // 2
+        question: `What is the name of the stealth camouflage technology used by Snake in Metal Gear Solid?`,
+        options: ['Solid Eye', 'Stealth Camo', 'Active Camouflage', 'OctoCamo'],
+        correctAnswer: 'Stealth Camo',
+      },
+      // 3
+      {
+        question: `What is the name of the device used by Snake to communicate with his support team and save the game in Metal Gear Solid?`,
+        options: ['Codec', 'Radar', 'Walkie-Talkie', 'Transceiver'],
+        correctAnswer: 'Codec',
+      },
+      // 4
+      {
+        question: `Which character betrays Snake and reveals herself to be working with the antagonist?`,
+        options: ['Meryl Silverburgh', 'Sniper Wolf', 'Naomi Hunter', 'Mei Ling'],
+        correctAnswer: 'Naomi Hunter',
+      },
+      // 5
+      {
+        question: `What is the real name of the character known as Deepthroat, who provides Snake with tips and information during the game?`,
+        options: ['Frank Jaeger', 'Gray Fox', 'Liquid Snake', 'Solid Snake'],
+        correctAnswer: 'Frank Jaeger',
+      },
+      // 6
+      {
+        question: `What is the name of the music track that plays during the iconic battle against Psycho Mantis?`,
+        options: ['Encounter', 'Snake Eater', 'The Best is Yet to Come', 'Metal Gear Solid Main Theme'],
+        correctAnswer: 'Encounter',
+      },
+      // 7
+      {
+        question: `What is the name of the government agency that Snake works for in Metal Gear Solid?`,
+        options: ['CIA', 'FBI', 'FOXHOUND', 'FOXDIE'],
+        correctAnswer: 'FOXHOUND',
+      },
+      // 8
+      {
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: '',
+      },
+      // 9
+      {
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: '',
+      },
+        // 10
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
+        // 11
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
+        // 12
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
+        // 13
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
+        // 14
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
+        // 15
+        {
+          question: ``,
+          options: ['', '', '', ''],
+          correctAnswer: '',
+        },
     ]
   },
   {
