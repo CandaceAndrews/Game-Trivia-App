@@ -146,21 +146,21 @@ const ps1Games = [
       },
       // 8
       {
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: '',
+        question: `Which character sacrifices themselves to save Snake and Otacon during the final battle with Metal Gear Rex?`,
+        options: ['Gray Fox', 'Meryl Silverburgh', 'Naomi Hunter', 'Mei Ling'],
+        correctAnswer: 'Gray Fox',
       },
       // 9
       {
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: '',
+        question: `What is the name of the scientist who developed Metal Gear Rex and later aids Snake in stopping the weapon?`,
+        options: ['Hal Emmerich', 'Frank Jaeger', 'Decoy Octopus', 'Donald Anderson'],
+        correctAnswer: 'Hal Emmerich',
       },
         // 10
         {
-          question: ``,
-          options: ['', '', '', ''],
-          correctAnswer: '',
+          question: `What is the name of the virus injected into Snake, threatening his life and serving as a key plot element in Metal Gear Solid?`,
+          options: ['FOXALIVE', 'FOXHOUND', 'FOXDIE-C', 'FOXDIE'],
+          correctAnswer: 'FOXDIE',
         },
         // 11
         {
