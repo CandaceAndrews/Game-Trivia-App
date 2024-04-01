@@ -164,33 +164,33 @@ const ps1Games = [
         },
         // 11
         {
-          question: ``,
-          options: ['', '', '', ''],
-          correctAnswer: '',
+          question: `What is the name of the remote-controlled missile launcher used by Snake to destroy obstacles and enemies from a distance in Metal Gear Solid?`,
+          options: ['Nikita Missile Launcher', 'Stinger Missile Launcher', 'FAMAS Assault Rifle', 'PSG1 Sniper Rifle'],
+          correctAnswer: 'Nikita Missile Launcher',
         },
         // 12
         {
-          question: ``,
-          options: ['', '', '', ''],
-          correctAnswer: '',
+          question: `What is the name of the location where Solid Snake is initially briefed about his mission in Metal Gear Solid?`,
+          options: ['Docking Bay', 'Helipad', 'Briefing Room', 'Armory'],
+          correctAnswer: 'Briefing Room',
         },
         // 13
         {
-          question: ``,
-          options: ['', '', '', ''],
+          question: `What is the name of the key card system used to access different areas and levels within the Shadow Moses facility in Metal Gear Solid?`,
+          options: ['PAL Key', 'Red Card', 'Blue Card', 'ID Card'],
           correctAnswer: '',
         },
         // 14
         {
-          question: ``,
-          options: ['', '', '', ''],
-          correctAnswer: '',
+          question: `What is the significance of the number "141.12" in Metal Gear Solid?`,
+          options: [`It is the frequency of Otacon's Codec channel.`, 'It is the access code for Metal Gear Rex.', 'It is the date of the Shadow Moses incident.', 'It is the identification number of Gray Fox.'],
+          correctAnswer: `It is the frequency of Otacon's Codec channel.`,
         },
         // 15
         {
-          question: ``,
-          options: ['', '', '', ''],
-          correctAnswer: '',
+          question: `What is the name of the AI system that controls the security and surveillance of the Shadow Moses facility in Metal Gear Solid?`,
+          options: ['Otacon', 'ArmsTech', 'DARPA', 'Metal Gear Mk. II'],
+          correctAnswer: 'ArmsTech',
         },
     ]
   },
