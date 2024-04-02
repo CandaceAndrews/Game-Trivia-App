@@ -178,7 +178,7 @@ const ps1Games = [
         {
           question: `What is the name of the key card system used to access different areas and levels within the Shadow Moses facility in Metal Gear Solid?`,
           options: ['PAL Key', 'Red Card', 'Blue Card', 'ID Card'],
-          correctAnswer: '',
+          correctAnswer: 'PAL Key',
         },
         // 14
         {
@@ -209,19 +209,19 @@ const ps1Games = [
         // 2
         question: `Which boss enemy must players defeat in the underground facility to obtain the G-Virus sample in Resident Evil 2?`,
         options: ['William Birkin', 'G-Virus Spawn', 'Mr. X', 'Giant Crocodile'],
-        correctAnswer: ``,
+        correctAnswer: `William Birkin`,
       },
       {
         // 3
-        question: `What is the code required to unlock the weapons locker in the Raccoon City Police Department?`,
+        question: `What is the code required to unlock the safe in the Raccoon City Police Department?`,
         options: ['2236', '4613', '8159', '3645'],
         correctAnswer: `2236`,
       },
       {
         // 4
-        question: `What is the name of the virus responsible for creating the zombies and mutated creatures in Resident Evil 2?`,
+        question: `What is the name of the virus responsible for creating the zombies and mutated creatures?`,
         options: ['T-Virus', 'G-Virus', 'Las Plagas', 'C-Virus'],
-        correctAnswer: ``,
+        correctAnswer: `T-Virus`,
       },
       {
         // 5
@@ -232,14 +232,14 @@ const ps1Games = [
       {
         // 6
         question: `What is the name of the mutated plant boss encountered in the sewers beneath Raccoon City?`,
-        options: ['Yawn', 'Neptune', 'Chimera', 'Ivy'],
+        options: ['Plant 43', 'Neptune', 'Chimera', 'Ivy'],
         correctAnswer: ``,
       },
       {
         // 7
-        question: `What is the final decision players must make near the end of Resident Evil 2 that determines the ending they will experience?`,
-        options: ['Save Leon/Claire', 'Escape Alone', 'Destroy the Laboratory', 'Inject the Antivirus'],
-        correctAnswer: ``,
+        question: `Which decision do players make near the end that influences the ending they will experience?`,
+        options: ['Choose whether to save Ada Wong or Sherry Birkin', `Decide which character will confront William Birkin's final form`, 'Select the location for the final showdown with the T-103 Tyrant', 'Determine whether to activate the self-destruct sequence or find an alternate escape route'],
+        correctAnswer: `Decide which character will confront William Birkin's final form`,
       },
       {
         // 8
