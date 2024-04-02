@@ -197,7 +197,99 @@ const ps1Games = [
   {
     id: 3,
     title: 'Resident Evil 2',
-    cover: require('@/assets/thumbnails/resident-evil-2/cover.jpeg')
+    cover: require('@/assets/thumbnails/resident-evil-2/cover.jpeg'),
+    questions: [
+      {
+        // 1
+        question: `What is the name of the underground laboratory where the T-Virus was developed and researched in Resident Evil 2?`,
+        options: ['Arklay Laboratory', 'Spencer Mansion Laboratory', 'Raccoon City Laboratory','Umbrella Corporation Laboratory'],
+        correctAnswer: `Umbrella Corporation Laboratory`,
+      },
+      {
+        // 2
+        question: `Which boss enemy must players defeat in the underground facility to obtain the G-Virus sample in Resident Evil 2?`,
+        options: ['William Birkin', 'G-Virus Spawn', 'Mr. X', 'Giant Crocodile'],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: `What is the code required to unlock the weapons locker in the Raccoon City Police Department?`,
+        options: ['2236', '4613', '8159', '3645'],
+        correctAnswer: `2236`,
+      },
+      {
+        // 4
+        question: `What is the name of the virus responsible for creating the zombies and mutated creatures in Resident Evil 2?`,
+        options: ['T-Virus', 'G-Virus', 'Las Plagas', 'C-Virus'],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: `What is the final destination that serves as the escape route for the survivors leading to a confrontation with a powerful boss?`,
+        options: ['The Umbrella Corporation Headquarters', 'The Police Helipad', 'The Underground Train Station', 'The Raccoon City Hospital'],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: `What is the name of the mutated plant boss encountered in the sewers beneath Raccoon City?`,
+        options: ['Yawn', 'Neptune', 'Chimera', 'Ivy'],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: `What is the final decision players must make near the end of Resident Evil 2 that determines the ending they will experience?`,
+        options: ['Save Leon/Claire', 'Escape Alone', 'Destroy the Laboratory', 'Inject the Antivirus'],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: ``,
+        options: [],
+        correctAnswer: ``,
+      },
+    ]
   },
   {
     id: 4,
