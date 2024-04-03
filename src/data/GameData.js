@@ -225,9 +225,9 @@ const ps1Games = [
       },
       {
         // 5
-        question: `What is the final destination that serves as the escape route for the survivors leading to a confrontation with a powerful boss?`,
-        options: ['The Umbrella Corporation Headquarters', 'The Police Helipad', 'The Underground Train Station', 'The Raccoon City Hospital'],
-        correctAnswer: ``,
+        question: `After obtaining the Base Vaccine, what room must the player return to create the G-Vaccine?`,
+        options: ['P-4 laboratory', 'B4F experimentation room', 'B4F low temperature laboratory', 'Main Shaft'],
+        correctAnswer: `P-4 laboratory`,
       },
       {
         // 6
@@ -243,39 +243,39 @@ const ps1Games = [
       },
       {
         // 8
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `What is the maximum number of inventory slots that can be unlocked for a character?`,
+        options: [' 4 slots', '6 slots', '8 slots', '10 slots'],
+        correctAnswer: `10 slots`,
       },
       {
         // 9
-        question: ``,
-        options: [],
+        question: `the file can be found resting on Chief Irons' desk chair?`,
+        options: [`Chief Irons' desk`, `Art Room on a box`, `RPD Waiting Room desk`, `Chief Irons' desk chair`],
         correctAnswer: ``,
       },
       {
         // 10
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `How many different types of ammunition can be found for the shotgun?`,
+        options: ['1', '2', '3', '4'],
+        correctAnswer: `3`,
       },
       {
         // 11
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `What item is needed to unlock the door in the Raccoon City Police Department basement leading to the secret laboratory?`,
+        options: ['Club Key', 'Spade Key', 'Diamond Key', 'Heart Key'],
+        correctAnswer: `Club Key`,
       },
       {
         // 12
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `Which key is dropped by Ada in the B2F Power Room after her apparent death by the hands of T-00 during Leon's "B" scenario?`,
+        options: ['Red Card Key', 'Blue Card Key', 'Master Key', 'Club Key'],
+        correctAnswer: `Master Key`,
       },
       {
         // 13
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `How many times must a player click on Wesker's desk in the S.T.A.R.S. office to trigger the hidden item?`,
+        options: ['10 times', '30 times', '40 times', '50 times'],
+        correctAnswer: `50 times`,
       },
       {
         // 14
