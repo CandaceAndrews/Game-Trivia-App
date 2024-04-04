@@ -220,7 +220,7 @@ const ps1Games = [
       {
         // 4
         question: `What is the name of the virus responsible for creating the zombies and mutated creatures?`,
-        options: ['T-Virus', 'G-Virus', 'Las Plagas', 'C-Virus'],
+        options: ['G-Virus', 'T-Virus', 'Las Plagas', 'C-Virus'],
         correctAnswer: `T-Virus`,
       },
       {
@@ -231,9 +231,9 @@ const ps1Games = [
       },
       {
         // 6
-        question: `What is the name of the mutated plant boss encountered in the sewers beneath Raccoon City?`,
-        options: ['Plant 43', 'Neptune', 'Chimera', 'Ivy'],
-        correctAnswer: ``,
+        question: `What is the primary weakness of Plant 42, the monstrous plant creature?`,
+        options: ['Fire', 'Acid', 'Explosives', 'Electricity'],
+        correctAnswer: `Acid`,
       },
       {
         // 7
