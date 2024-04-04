@@ -249,9 +249,9 @@ const ps1Games = [
       },
       {
         // 9
-        question: `the file can be found resting on Chief Irons' desk chair?`,
+        question: `Where does Claire find the Chief's diary?`,
         options: [`Chief Irons' desk`, `Art Room on a box`, `RPD Waiting Room desk`, `Chief Irons' desk chair`],
-        correctAnswer: ``,
+        correctAnswer: `Chief Irons' desk chair`,
       },
       {
         // 10
@@ -279,16 +279,16 @@ const ps1Games = [
       },
       {
         // 14
-        question: ``,
-        options: [],
-        correctAnswer: ``,
+        question: `What is the item that Sherry Birkin carries with her throughout most of Resident Evil 2, which becomes a key plot element in the game?`,
+        options: ['Necklace', 'Locket', 'Bracelet', 'Pendant'],
+        correctAnswer: `Locket`,
       },
       {
         // 15
-        question: ``,
-        options: [],
-        correctAnswer: ``,
-      },
+        question: `What does a player need to do to unlock The 4th Survivor mode?`,
+        options: ['Complete scenario A and B, while getting an A rank on at least one of them', 'Complete any scenario six times', 'Finish Leon B or Claire B in less than 3:00 hours with an A or B ranking', 'Finish either scenario with no damage taken'],
+        correctAnswer: `Complete scenario A and B, while getting an A rank on at least one of them`,
+      }
     ]
   },
   {
