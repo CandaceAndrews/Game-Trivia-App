@@ -306,7 +306,7 @@ const ps1Games = [
         // 2
         question: `What is the name of the secret level accessed by collecting all the colored gems in the level "The Lost City`,
         options: ['The Bonus Round', 'Fumbling in the Dark', 'The Hidden Passage', 'The Gemstone Chamber'],
-        correctAnswer: ``,
+        correctAnswer: `The Bonus Round`,
       },
       {
         // 3
@@ -330,60 +330,60 @@ const ps1Games = [
         // 6
         question: `What is the maximum number of lives Crash can have in the original Crash Bandicoot game without exploiting glitches or cheats?`,
         options: ['99', '50', '25', '10'],
-        correctAnswer: ``,
+        correctAnswer: `99`,
       },
       {
         // 7
         question: `In which level does Crash encounter his first boss, Papu Papu?`,
         options: ['Rolling Stones', 'Native Fortress', 'Upstream', 'The Lost City'],
-        correctAnswer: ``,
+        correctAnswer: `Native Fortress`,
       },
       {
         // 8
         question: `In the level "Lights Out," what is the primary obstacle that makes visibility difficult for Crash?`,
         options: ['Darkness', 'Falling platforms', 'Rolling barrels', 'Hidden traps'],
-        correctAnswer: ``,
+        correctAnswer: `Darkness`,
       },
       {
         // 9
         question: `What special ability does Crash gain after defeating Ripper Roo?`,
-        options: ['Super Spin', 'Double Jump', 'Belly Flop', 'Speed Shoes'],
-        correctAnswer: ``,
+        options: ['Super Spin', 'Double Jump', 'Belly Flop', 'No special ability'],
+        correctAnswer: `No special ability`,
       },
       {
         // 10
         question: `Which level features a unique mechanic where Crash must avoid being crushed by moving walls and ceilings?`,
         options: ['Boulder Dash', 'Heavy Machinery', 'Road to Nowhere', 'Temple Ruins'],
-        correctAnswer: ``,
+        correctAnswer: `Heavy Machinery`,
       },
       {
         // 11
         question: `How many colored gems can Crash collect in the game?`,
         options: ['4', '5', '6', '7'],
-        correctAnswer: ``,
+        correctAnswer: `6`,
       },
       {
         // 12
         question: `What type of levels are represented by a skull icon on the map?`,
         options: ['Bonus Levels', 'Boss Levels', 'Hidden Levels', 'Time Trial Levels'],
-        correctAnswer: ``,
+        correctAnswer: `Boss Levels`,
       },
       {
         // 13
         question: `What is the purpose of bonus rounds in Crash Bandicoot levels?`,
         options: ['To earn extra lives', 'To collect additional Wumpa fruits', 'To unlock secret areas', 'To access special power-ups'],
-        correctAnswer: ``,
+        correctAnswer: `To earn extra lives`,
       },
       {
         // 14
         question: `What is the name of the bonus stage that can be accessed in the level "The Lab" by breaking a specific set of boxes?`,
-        options: ['Bouncing Boxes', 'Cortex Power', 'The High Road', 'Toxic Dash'],
-        correctAnswer: ``,
+        options: ['Bouncing Boxes', 'Lights Out', 'The High Road', 'Toxic Dash'],
+        correctAnswer: `Lights Out`,
       },
       {
         // 15
-        question: `How many colored gems require backtracking to previous levels without breaking boxes to obtain?`,
-        options: ['1', '2', '3', '4'],
+        question: `Which unique features are exclusive and not found in any other game in the series?`,
+        options: ['The purple gem and Time Trial mode', 'The orange gem and bonus round tokens', 'The green gem and warp rooms', 'The yellow gem and Aku Aku masks'],
         correctAnswer: ``,
       },
     ]
