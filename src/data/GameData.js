@@ -300,31 +300,31 @@ const ps1Games = [
         // 1
         question: `What is the name of the first island that Crash explores in the game?`,
         options: ['Wumpa Island', 'N. Sanity Island', 'Cortex Island', 'Jungle Island'],
-        correctAnswer: ``,
+        correctAnswer: `N. Sanity Island`,
       },
       {
         // 2
-        question: `What is the name of the secret level that can be accessed by finding a hidden gem in the level "The Great Gate"?`,
-        options: ['Sunset Vista', 'The Lost City', 'Stormy Ascent', 'Fumbling in the Dark'],
+        question: `What is the name of the secret level accessed by collecting all the colored gems in the level "The Lost City`,
+        options: ['The Bonus Round', 'Fumbling in the Dark', 'The Hidden Passage', 'The Gemstone Chamber'],
         correctAnswer: ``,
       },
       {
         // 3
         question: `What is the primary objective of Crash Bandicoot throughout the game?`,
         options: ['Save Tawna', 'Defeat Dr. Neo Cortex', 'Collect Gems', 'Escape the Island'],
-        correctAnswer: ``,
+        correctAnswer: `Defeat Dr. Neo Cortex`,
       },
       {
         // 4
         question: `How many levels are there in total in the original Crash Bandicoot game?`,
-        options: ['20', '25', '30', '35'],
-        correctAnswer: ``,
+        options: ['20', '25', '30', '32'],
+        correctAnswer: `32`,
       },
       {
         // 5
         question: `In the level "Generator Room," what enemy type is most prominently featured?`,
         options: ['Lab Assistants', 'Electric Eels', 'Toxic Waste Barrels', 'Robot Spiders'],
-        correctAnswer: ``,
+        correctAnswer: `Electric Eels`,
       },
       {
         // 6
