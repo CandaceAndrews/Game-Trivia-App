@@ -294,27 +294,487 @@ const ps1Games = [
   {
     id: 4,
     title: 'Crash Bandicoot',
-    cover: require('@/assets/thumbnails/crash-bandicoot/cover.jpeg')
+    cover: require('@/assets/thumbnails/crash-bandicoot/cover.jpeg'),
+    questions: [
+      {
+        // 1
+        question: `What is the name of the first island that Crash explores in the game?`,
+        options: ['Wumpa Island', 'N. Sanity Island', 'Cortex Island', 'Jungle Island'],
+        correctAnswer: ``,
+      },
+      {
+        // 2
+        question: `What is the name of the secret level that can be accessed by finding a hidden gem in the level "The Great Gate"?`,
+        options: ['Sunset Vista', 'The Lost City', 'Stormy Ascent', 'Fumbling in the Dark'],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: `What is the primary objective of Crash Bandicoot throughout the game?`,
+        options: ['Save Tawna', 'Defeat Dr. Neo Cortex', 'Collect Gems', 'Escape the Island'],
+        correctAnswer: ``,
+      },
+      {
+        // 4
+        question: `How many levels are there in total in the original Crash Bandicoot game?`,
+        options: ['20', '25', '30', '35'],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: `In the level "Generator Room," what enemy type is most prominently featured?`,
+        options: ['Lab Assistants', 'Electric Eels', 'Toxic Waste Barrels', 'Robot Spiders'],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: `What is the maximum number of lives Crash can have in the original Crash Bandicoot game without exploiting glitches or cheats?`,
+        options: ['99', '50', '25', '10'],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: `In which level does Crash encounter his first boss, Papu Papu?`,
+        options: ['Rolling Stones', 'Native Fortress', 'Upstream', 'The Lost City'],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: `In the level "Lights Out," what is the primary obstacle that makes visibility difficult for Crash?`,
+        options: ['Darkness', 'Falling platforms', 'Rolling barrels', 'Hidden traps'],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: `What special ability does Crash gain after defeating Ripper Roo?`,
+        options: ['Super Spin', 'Double Jump', 'Belly Flop', 'Speed Shoes'],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: `Which level features a unique mechanic where Crash must avoid being crushed by moving walls and ceilings?`,
+        options: ['Boulder Dash', 'Heavy Machinery', 'Road to Nowhere', 'Temple Ruins'],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: `How many colored gems can Crash collect in the game?`,
+        options: ['4', '5', '6', '7'],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: `What type of levels are represented by a skull icon on the map?`,
+        options: ['Bonus Levels', 'Boss Levels', 'Hidden Levels', 'Time Trial Levels'],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: `What is the purpose of bonus rounds in Crash Bandicoot levels?`,
+        options: ['To earn extra lives', 'To collect additional Wumpa fruits', 'To unlock secret areas', 'To access special power-ups'],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: `What is the name of the bonus stage that can be accessed in the level "The Lab" by breaking a specific set of boxes?`,
+        options: ['Bouncing Boxes', 'Cortex Power', 'The High Road', 'Toxic Dash'],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: `How many colored gems require backtracking to previous levels without breaking boxes to obtain?`,
+        options: ['1', '2', '3', '4'],
+        correctAnswer: ``,
+      },
+    ]
   },
   {
     id: 5,
     title: 'Spyro The Dragon',
-    cover: require('@/assets/thumbnails/spyro-the-dragon/cover.jpeg')
+    cover: require('@/assets/thumbnails/spyro-the-dragon/cover.jpeg'),
+    questions: [
+      {
+        // 1
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 2
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 4
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+    ]
   },
   {
     id: 6,
     title: 'Tomb Raider',
-    cover: require('@/assets/thumbnails/tomb-raider/cover.png')
+    cover: require('@/assets/thumbnails/tomb-raider/cover.png'),
+    questions: [
+      {
+        // 1
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 2
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 4
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+    ]
   },
   {
     id: 7,
     title: 'Silent Hill',
-    cover: require('@/assets/thumbnails/silent-hill/cover.jpeg')
+    cover: require('@/assets/thumbnails/silent-hill/cover.jpeg'),
+    questions: [
+      {
+        // 1
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 2
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 4
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+    ]
   },
   {
     id: 8,
     title: 'Tekken 3',
-    cover: require('@/assets/thumbnails/tekken-3/cover.jpeg')
+    cover: require('@/assets/thumbnails/tekken-3/cover.jpeg'),
+    questions: [
+      {
+        // 1
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 2
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 3
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 4
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 5
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 6
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 7
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 8
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 9
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 10
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 11
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 12
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 13
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 14
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+      {
+        // 15
+        question: ``,
+        options: ['', '', '', ''],
+        correctAnswer: ``,
+      },
+    ]
   }
   ];
   
