@@ -397,34 +397,34 @@ const ps1Games = [
         // 1
         question: `Lara uncovers a hidden entrance beneath which fallen monument in Tomb Raider's starting location?`,
         options: ['Palace Midas', 'Statue of Plutus', 'Colosseum', 'Temple of Tihocan'],
-        correctAnswer: ``,
+        correctAnswer: `Statue of Plutus`,
       },
       {
         // 2
         question: `What is the first weapon Lara acquires after her dual pistols?`,
         options: ['Shotgun', 'Shaver Shotgun', 'Grenade Launcher', 'Crossbow'],
-        correctAnswer: ``,
+        correctAnswer: `Shotgun`,
       },
       {
         // 3
         question: `To access the Tomb of Set in Peru, Lara must solve a puzzle involving which mythological creatures?`,
         options: ['Sphinxes', 'Minotaurs', 'Sirens', 'Griffins'],
-        correctAnswer: ``,
+        correctAnswer: `Sphinxes`,
       },
       {
         // 4
         question: `What secret item, obtained in the Tomb of Set, allows Lara to access underwater areas?`,
         options: ['Diving Suit', 'Rebreather', 'Air Tank', 'Amphibious Suit'],
-        correctAnswer: ``,
+        correctAnswer: `Rebreather`,
       },
       {
         // 5
         question: `Which hidden location within the Palace Midas grants access to the next area, but requires a specific key type?`,
         options: ['The Treasury', 'The Torture Chamber', 'The Royal Tomb', 'The Hydra Chamber'],
-        correctAnswer: ``,
+        correctAnswer: `The Treasury`,
       },
       {
-        // 6
+        // *****6
         question: `What two creatures does Lara encounter for the first time within the Tomb of Qualopec?`,
         options: ['T-Rex and Bats', 'Wolves and Spiders', 'Yetis and Rats', 'Centaurs and Harpies'],
         correctAnswer: ``,
@@ -433,55 +433,55 @@ const ps1Games = [
         // 7
         question: `To access the final confrontation with Lara's nemesis, Lara must use a specific artifact on which location's altar?`,
         options: [`Midas' Throne Room`, `Qualopec's Inner Sanctum`, 'The Atlantean Chamber', 'The Sunken Pyramid'],
-        correctAnswer: ``,
+        correctAnswer: `Qualopec's Inner Sanctum`,
       },
       {
         // 8
         question: `What is the name of the final boss Lara faces in Tomb Raider?`,
         options: ['Natla', 'Tihocan', 'Larson Redmond', 'The Serpent'],
-        correctAnswer: ``,
+        correctAnswer: `Natla`,
       },
       {
-        // 9
+        // 9 
         question: `Which deadly trap, requiring a specific timed maneuver, guards the entrance to the Tomb of Qualopec?`,
         options: ['Spike Traps', 'Rolling Boulders', 'Flaming Arrows', 'Spear Traps'],
-        correctAnswer: ``,
+        correctAnswer: `Rolling Boulders`,
       },
       {
         // 10
         question: `What secret item, hidden within the Colosseum, allows Lara to bypass certain locked doors?`,
         options: ['Hall of Mirrors Key', 'Palace Midas Key', 'Skeleton Key', 'Atlantis Key'],
-        correctAnswer: ``,
+        correctAnswer: `Skeleton Key`,
       },
       {
         // 11
-        question: `What is the name of the first human enemy Lara encounters in the game (excluding tutorial)?`,
-        options: [`Larson Redmond's Mercenaries`, 'Wolves', 'Palace Guards', 'Wolves in Peru'],
-        correctAnswer: ``,
+        question: `What is the combination to unlock the safe in the City of Khamoon?`,
+        options: [`745`, '297', '865', '314'],
+        correctAnswer: `745`,
       },
       {
         // 12
         question: `To access the underwater section of the Palace Midas, Lara must solve a puzzle involving which object?`,
         options: ['Sun Dial', 'Water Pressure Levers', 'Statues of Lions', 'The Scion of Atlantis'],
-        correctAnswer: ``,
+        correctAnswer: `Water Pressure Levers`,
       },
       {
         // 13
         question: `What secret item, hidden within the Tomb of Set, allows Lara to climb specific walls?`,
         options: ['Climbing Claws', 'Grappling Hook', 'Rope Arrows', 'Spider Rope'],
-        correctAnswer: ``,
+        correctAnswer: `Climbing Claws`,
       },
       {
         // 14
         question: `Which two secret items, found throughout the game, combine to create a powerful explosive device?`,
         options: ['Chemical X and TNT Block', 'High Octane Gas and Remote Detonator', 'Nitro Glycerin and Fuse', 'White Phosphorous and Pipe Bomb'],
-        correctAnswer: ``,
+        correctAnswer: `Nitro Glycerin and Fuse`,
       },
       {
         // 15
         question: `What is the name of the hidden location accessed within the Palace Midas that contains a secret stash of weapons and ammunition?`,
         options: ['The Armory', 'The Trophy Room', 'The Training Grounds', 'The Hidden Vault'],
-        correctAnswer: ``,
+        correctAnswer: `The Armory`,
       },
     ]
   },
