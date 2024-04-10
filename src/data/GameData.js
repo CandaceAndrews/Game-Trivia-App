@@ -390,299 +390,105 @@ const ps1Games = [
   },
   {
     id: 5,
-    title: 'Spyro The Dragon',
-    cover: require('@/assets/thumbnails/spyro-the-dragon/cover.jpeg'),
+    title: 'Tomb Raider',
+    cover: require('@/assets/thumbnails/tomb-raider/cover.png'),
     questions: [
       {
         // 1
-        question: ``,
-        options: ['', '', '', ''],
+        question: `Lara uncovers a hidden entrance beneath which fallen monument in Tomb Raider's starting location?`,
+        options: ['Palace Midas', 'Statue of Plutus', 'Colosseum', 'Temple of Tihocan'],
         correctAnswer: ``,
       },
       {
         // 2
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What is the first weapon Lara acquires after her dual pistols?`,
+        options: ['Shotgun', 'Shaver Shotgun', 'Grenade Launcher', 'Crossbow'],
         correctAnswer: ``,
       },
       {
         // 3
-        question: ``,
-        options: ['', '', '', ''],
+        question: `To access the Tomb of Set in Peru, Lara must solve a puzzle involving which mythological creatures?`,
+        options: ['Sphinxes', 'Minotaurs', 'Sirens', 'Griffins'],
         correctAnswer: ``,
       },
       {
         // 4
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What secret item, obtained in the Tomb of Set, allows Lara to access underwater areas?`,
+        options: ['Diving Suit', 'Rebreather', 'Air Tank', 'Amphibious Suit'],
         correctAnswer: ``,
       },
       {
         // 5
-        question: ``,
-        options: ['', '', '', ''],
+        question: `Which hidden location within the Palace Midas grants access to the next area, but requires a specific key type?`,
+        options: ['The Treasury', 'The Torture Chamber', 'The Royal Tomb', 'The Hydra Chamber'],
         correctAnswer: ``,
       },
       {
         // 6
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What two creatures does Lara encounter for the first time within the Tomb of Qualopec?`,
+        options: ['T-Rex and Bats', 'Wolves and Spiders', 'Yetis and Rats', 'Centaurs and Harpies'],
         correctAnswer: ``,
       },
       {
         // 7
-        question: ``,
-        options: ['', '', '', ''],
+        question: `To access the final confrontation with Lara's nemesis, Lara must use a specific artifact on which location's altar?`,
+        options: [`Midas' Throne Room`, `Qualopec's Inner Sanctum`, 'The Atlantean Chamber', 'The Sunken Pyramid'],
         correctAnswer: ``,
       },
       {
         // 8
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What is the name of the final boss Lara faces in Tomb Raider?`,
+        options: ['Natla', 'Tihocan', 'Larson Redmond', 'The Serpent'],
         correctAnswer: ``,
       },
       {
         // 9
-        question: ``,
-        options: ['', '', '', ''],
+        question: `Which deadly trap, requiring a specific timed maneuver, guards the entrance to the Tomb of Qualopec?`,
+        options: ['Spike Traps', 'Rolling Boulders', 'Flaming Arrows', 'Spear Traps'],
         correctAnswer: ``,
       },
       {
         // 10
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What secret item, hidden within the Colosseum, allows Lara to bypass certain locked doors?`,
+        options: ['Hall of Mirrors Key', 'Palace Midas Key', 'Skeleton Key', 'Atlantis Key'],
         correctAnswer: ``,
       },
       {
         // 11
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What is the name of the first human enemy Lara encounters in the game (excluding tutorial)?`,
+        options: [`Larson Redmond's Mercenaries`, 'Wolves', 'Palace Guards', 'Wolves in Peru'],
         correctAnswer: ``,
       },
       {
         // 12
-        question: ``,
-        options: ['', '', '', ''],
+        question: `To access the underwater section of the Palace Midas, Lara must solve a puzzle involving which object?`,
+        options: ['Sun Dial', 'Water Pressure Levers', 'Statues of Lions', 'The Scion of Atlantis'],
         correctAnswer: ``,
       },
       {
         // 13
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What secret item, hidden within the Tomb of Set, allows Lara to climb specific walls?`,
+        options: ['Climbing Claws', 'Grappling Hook', 'Rope Arrows', 'Spider Rope'],
         correctAnswer: ``,
       },
       {
         // 14
-        question: ``,
-        options: ['', '', '', ''],
+        question: `Which two secret items, found throughout the game, combine to create a powerful explosive device?`,
+        options: ['Chemical X and TNT Block', 'High Octane Gas and Remote Detonator', 'Nitro Glycerin and Fuse', 'White Phosphorous and Pipe Bomb'],
         correctAnswer: ``,
       },
       {
         // 15
-        question: ``,
-        options: ['', '', '', ''],
+        question: `What is the name of the hidden location accessed within the Palace Midas that contains a secret stash of weapons and ammunition?`,
+        options: ['The Armory', 'The Trophy Room', 'The Training Grounds', 'The Hidden Vault'],
         correctAnswer: ``,
       },
     ]
   },
   {
     id: 6,
-    title: 'Tomb Raider',
-    cover: require('@/assets/thumbnails/tomb-raider/cover.png'),
-    questions: [
-      {
-        // 1
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 2
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 3
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 4
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 5
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 6
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 7
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 8
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 9
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 10
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 11
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 12
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 13
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 14
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 15
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-    ]
-  },
-  {
-    id: 7,
     title: 'Silent Hill',
     cover: require('@/assets/thumbnails/silent-hill/cover.jpeg'),
-    questions: [
-      {
-        // 1
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 2
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 3
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 4
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 5
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 6
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 7
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 8
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 9
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 10
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 11
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 12
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 13
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 14
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-      {
-        // 15
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
-      },
-    ]
-  },
-  {
-    id: 8,
-    title: 'Tekken 3',
-    cover: require('@/assets/thumbnails/tekken-3/cover.jpeg'),
     questions: [
       {
         // 1
