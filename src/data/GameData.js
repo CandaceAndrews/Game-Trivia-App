@@ -492,63 +492,63 @@ const ps1Games = [
     questions: [
       {
         // 1
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `How does Harry Mason acquire the Flauros?`,
+        options: ['By defeating Split Head', 'By solving a puzzle in the Otherworld library', 'It is given to him by Dahlia Gillespie', `By finding it hidden in Lisa Garland's room`],
+        correctAnswer: `It is given to him by Dahlia Gillespie`,
       },
       {
         // 2
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the name of the antique shop located in the central area of Silent Hill?`,
+        options: ['Wood Side Antique Shop', 'Cel-Real Antique Shop', `Antique Shop`, `Daisy's Antique Store`],
+        correctAnswer: `Antique Shop`,
       },
       {
         // 3
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `How many endings are there in the original Silent Hill game?`,
+        options: ['3', '4', '5', '6'],
+        correctAnswer: `3`,
       },
       {
         // 4
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What item must Harry use to access the alternate school area beneath Midwich Elementary?`,
+        options: ['Red Liquid', 'Green Key', 'Bronze Medallion', 'Channeling Stone'],
+        correctAnswer: `Bronze Medallion`,
       },
       {
         // 5
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the combination to unlock the door in the Otherworld version of Midwich Elementary?`,
+        options: ['Cybil Bennett', 'Lisa Garland', 'Michael Kaufmann', 'Alessa Gillespie'],
+        correctAnswer: `Alessa Gillespie`,
       },
       {
         // 6
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the significance of the cat in the game?`,
+        options: ['It provides clues about puzzle solutions.', `It is a manifestation of Alessa's innocence.`, 'It is a hidden boss encounter.', 'It is a random creature with no particular significance.'],
+        correctAnswer: `It is a random creature with no particular significance.`,
       },
       {
         // 7
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What puzzle must Harry solve in the Otherworld library to obtain the Flauros?`,
+        options: ['Decipher the inscription on the desk', 'Arrange the books by color', 'Play a melody on the piano', 'Defeat the shadow creature'],
+        correctAnswer: 'Decipher the inscription on the desk'
       },
       {
         // 8
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: 'What is the name of the abandoned amusement park that Harry explores in Silent Hill?',
+        options: ['Fantasyland', 'Lakeside Park', 'Lakeside Amusement Park', 'Funland'],
+        correctAnswer: 'Lakeside Amusement Park'
       },
       {
         // 9
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the final location in the game the player explores?`,
+        options: ['Nowhere', 'Lakeside Amusement Park', `The Abyss`, `The Lighthouse`],
+        correctAnswer: `Nowhere`,
       },
       {
         // 10
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `Which of the following is NOT a potential weapon that Harry can use to defend himself against the creatures in Silent Hill?`,
+        options: ['Shotgun', 'Pipe', 'Chainsaw', 'Revolver'],
+        correctAnswer: `Revolver`,
       },
       {
         // 11
