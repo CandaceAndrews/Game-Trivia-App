@@ -498,15 +498,15 @@ const ps1Games = [
       },
       {
         // 2
-        question: `What is the name of the antique shop located in the central area of Silent Hill?`,
-        options: ['Wood Side Antique Shop', 'Cel-Real Antique Shop', `Antique Shop`, `Daisy's Antique Store`],
-        correctAnswer: `Antique Shop`,
+        question: `What is the name on the antique shop key if you examine it?`,
+        options: ['Wood Side Antique', 'Green Lion', `Antique Shop`, `Daisy's Antique`],
+        correctAnswer: `Green Lion`,
       },
       {
         // 3
-        question: `How many endings are there in the original Silent Hill game?`,
+        question: `How many possible endings are there in the original Silent Hill game?`,
         options: ['3', '4', '5', '6'],
-        correctAnswer: `3`,
+        correctAnswer: `5`,
       },
       {
         // 4
@@ -516,21 +516,21 @@ const ps1Games = [
       },
       {
         // 5
-        question: `What is the combination to unlock the door in the Otherworld version of Midwich Elementary?`,
-        options: ['Cybil Bennett', 'Lisa Garland', 'Michael Kaufmann', 'Alessa Gillespie'],
-        correctAnswer: `Alessa Gillespie`,
+        question: `In the alternate school area, what is the correct sequence of symbols to unlock the clock tower door?`,
+        options: ['Moon, Star, Sun', 'Sun, Moon, Star', 'Star, Sun, Moon', 'Moon, Sun, Star'],
+        correctAnswer: `Sun, Moon, Star`,
       },
       {
         // 6
-        question: `What is the significance of the cat in the game?`,
-        options: ['It provides clues about puzzle solutions.', `It is a manifestation of Alessa's innocence.`, 'It is a hidden boss encounter.', 'It is a random creature with no particular significance.'],
-        correctAnswer: `It is a random creature with no particular significance.`,
+        question: `Which is the optional location in Silent Hill that Harry can enter to begin the Kaufmann sidequest?`,
+        options: ['Balkan Church', `Annie's Bar`, 'Hell Gas Station', 'Indian Runner'],
+        correctAnswer: `Annie's Bar`,
       },
       {
         // 7
-        question: `What puzzle must Harry solve in the Otherworld library to obtain the Flauros?`,
-        options: ['Decipher the inscription on the desk', 'Arrange the books by color', 'Play a melody on the piano', 'Defeat the shadow creature'],
-        correctAnswer: 'Decipher the inscription on the desk'
+        question: `Which item is needed in order to save Cybil?`,
+        options: ['Flauros', 'Amulet of Solomon', 'Red Liquid', 'Seal of Metatron'],
+        correctAnswer: 'Red Liquid'
       },
       {
         // 8
@@ -546,7 +546,7 @@ const ps1Games = [
       },
       {
         // 10
-        question: `Which of the following is NOT a potential weapon that Harry can use to defend himself against the creatures in Silent Hill?`,
+        question: `Which of the following is NOT a potential weapon that Harry can use to defend himself against the creatures?`,
         options: ['Shotgun', 'Pipe', 'Chainsaw', 'Revolver'],
         correctAnswer: `Revolver`,
       },
