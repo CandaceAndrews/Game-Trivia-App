@@ -576,9 +576,9 @@ const ps1Games = [
       },
       {
         // 15
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the name of the enemy that bursts through the cafe window soon after Harry observes the radio?`,
+        options: ['The Creeper', 'The Air Screamer', 'The Closer', 'The Twinfeeler'],
+        correctAnswer: `The Air Screamer`,
       },
     ]
   }
