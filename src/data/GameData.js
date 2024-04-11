@@ -552,27 +552,27 @@ const ps1Games = [
       },
       {
         // 11
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What is the name of the secret organization that Dr. Kaufmann is affiliated with?`,
+        options: ['The Valtiel Sect', 'The Order', 'The Brethren of Silence', 'The Cult of Silent Hill'],
+        correctAnswer: `The Order`,
       },
       {
         // 12
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `Where can the Channeling Stone can be found?`,
+        options: ['Lighthouse roof', `Norman's Motel`, 'Midwich Elementary School', 'Convenience Store 8'],
+        correctAnswer: `Convenience Store 8`,
       },
       {
         // 13
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What building must be entered in order to reach Midwich Elementary School?`,
+        options: ['The Levin St. House', 'Silent Hill Police Station', `Norman's Motel`, 'Balkan Church'],
+        correctAnswer: `The Levin St. House`,
       },
       {
         // 14
-        question: ``,
-        options: ['', '', '', ''],
-        correctAnswer: ``,
+        question: `What item is needed in order to retrieve the key underneath the floorboards in the Norman's Motel?`,
+        options: ['Crowbar', 'Magnet', 'String with hook', 'Tongs'],
+        correctAnswer: `Magnet`,
       },
       {
         // 15
