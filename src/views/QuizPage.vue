@@ -7,6 +7,8 @@
             <div class="question">
                 {{ currentQuestion.question }}
             </div>
+            <!-- Timer -->
+            <div class="timer">{{ timer }}</div>
             <!-- Options -->
             <div class="options">
                 <button v-for="(option, index) in currentQuestion.options" :key="index" @click="checkAnswer(option)">
@@ -36,6 +38,7 @@ export default {
             correctAnswers: 0,
             userAnswers: [],
             showResults: false,
+            timer: 0, 
         };
     },
     computed: {
@@ -47,6 +50,16 @@ export default {
         },
     },
     methods: {
+        startTimer() {
+            this.timer = 10;
+            const countdown = setInterval(() => {
+                this.timer--;
+                if (this.timer <= 0) {
+                    clearInterval(countdown);
+                    this.moveToNextQuestion();
+                }
+            }, 1000);
+        },
         checkAnswer(option) {
             const correctAnswer = this.currentQuestion.correctAnswer;
             if (option === correctAnswer) {
@@ -57,6 +70,7 @@ export default {
                 // Last question answered, show results
                 this.showResults = true;
             } else {
+                this.startTimer(); // start timer for next question
                 this.moveToNextQuestion();
             }
         },
