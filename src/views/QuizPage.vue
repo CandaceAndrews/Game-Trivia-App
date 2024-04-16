@@ -78,6 +78,10 @@ export default {
             this.currentQuestionIndex++;
             this.userAnswers = []; // Reset user answers for the next question
         },
+        mounted() {
+            // start timer when component is mounted (first question)
+            this.startTimer();
+        }
     },
 };
 </script>
@@ -89,6 +93,11 @@ export default {
 
 .question {
     margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .options {
