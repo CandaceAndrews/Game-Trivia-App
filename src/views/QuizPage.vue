@@ -8,7 +8,7 @@
                 {{ currentQuestion.question }}
             </div>
             <!-- Timer -->
-            <div class="timer">{{ timer }}</div>
+            <div class="timer">Timer: {{ timer }}</div>
             <!-- Options -->
             <div class="options">
                 <button v-for="(option, index) in currentQuestion.options" :key="index" @click="checkAnswer(option)">
@@ -29,60 +29,60 @@
 
 <script>
 export default {
-    props: {
-        game: Object,
+  props: {
+    game: Object,
+  },
+  data() {
+    return {
+      currentQuestionIndex: 0,
+      correctAnswers: 0,
+      userAnswers: [],
+      showResults: false,
+      timer: 10,
+    };
+  },
+  computed: {
+    currentQuestion() {
+      if (this.game.questions && this.game.questions.length > this.currentQuestionIndex) {
+        return this.game.questions[this.currentQuestionIndex];
+      }
+      return null;
     },
-    data() {
-        return {
-            currentQuestionIndex: 0,
-            correctAnswers: 0,
-            userAnswers: [],
-            showResults: false,
-            timer: 0, 
-        };
-    },
-    computed: {
-        currentQuestion() {
-            if (this.game.questions && this.game.questions.length > this.currentQuestionIndex) {
-                return this.game.questions[this.currentQuestionIndex];
-            }
-            return null;
-        },
-    },
-    methods: {
-        startTimer() {
-            this.timer = 10;
-            const countdown = setInterval(() => {
-                this.timer--;
-                if (this.timer <= 0) {
-                    clearInterval(countdown);
-                    this.moveToNextQuestion();
-                }
-            }, 1000);
-        },
-        checkAnswer(option) {
-            const correctAnswer = this.currentQuestion.correctAnswer;
-            if (option === correctAnswer) {
-                this.correctAnswers++; // Increment the count of correct answers
-            }
-            this.userAnswers.push(option);
-            if (this.currentQuestionIndex === this.game.questions.length - 1) {
-                // Last question answered, show results
-                this.showResults = true;
-            } else {
-                this.startTimer(); // start timer for next question
-                this.moveToNextQuestion();
-            }
-        },
-        moveToNextQuestion() {
-            this.currentQuestionIndex++;
-            this.userAnswers = []; // Reset user answers for the next question
-        },
-        mounted() {
-            // start timer when component is mounted (first question)
-            this.startTimer();
+  },
+  methods: {
+    startTimer() {
+      this.timer = 10;
+      const countdown = setInterval(() => {
+        this.timer--;
+        if (this.timer <= 0) {
+          clearInterval(countdown);
+          this.moveToNextQuestion();
         }
+      }, 1000);
     },
+    checkAnswer(option) {
+      const correctAnswer = this.currentQuestion.correctAnswer;
+      if (option === correctAnswer) {
+        this.correctAnswers++; // Increment the count of correct answers
+      }
+      this.userAnswers.push(option);
+      if (this.currentQuestionIndex === this.game.questions.length - 1) {
+        // Last question answered, show results
+        this.showResults = true;
+      } else {
+        this.moveToNextQuestion();
+        this.startTimer(); // start timer for next question
+      }
+    },
+    moveToNextQuestion() {
+      this.currentQuestionIndex++;
+      this.userAnswers = []; // Reset user answers for the next question
+    },
+  },
+  mounted() {
+    // start timer when component is mounted (first question)
+    this.startTimer();
+  },
 };
 </script>
 
